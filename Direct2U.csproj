@@ -1,0 +1,304 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Local"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{AFEB2EC6-3CC4-43AF-8B95-8B8BA3F17CE3}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = "App.ico"
+                AssemblyKeyContainerName = ""
+                AssemblyName = "Direct2U"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "WinExe"
+                PreBuildEvent = ""
+                PostBuildEvent = ""
+                RootNamespace = "Direct2U"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "bin\Debug\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "true"
+                    OutputPath = "bin\Release\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "..\..\WINNT\Microsoft.NET\Framework\v1.1.4322\System.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "..\..\WINNT\Microsoft.NET\Framework\v1.1.4322\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "..\..\WINNT\Microsoft.NET\Framework\v1.1.4322\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Windows.Forms"
+                    AssemblyName = "System.Windows.Forms"
+                    HintPath = "..\..\WINNT\Microsoft.NET\Framework\v1.1.4322\System.Windows.Forms.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "..\..\WINNT\Microsoft.NET\Framework\v1.1.4322\System.XML.dll"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "App.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Globals.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HaloSettings.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HaloSettings.resx"
+                    DependentUpon = "HaloSettings.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "MainForm.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "MainForm.resx"
+                    DependentUpon = "MainForm.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Bitmaps\Backgrounds\Adv.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bitmaps\Backgrounds\AutoDL.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bitmaps\Backgrounds\Congrats.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bitmaps\Backgrounds\Downloading.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bitmaps\Backgrounds\MapScan.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bitmaps\Backgrounds\UpdateFound.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bitmaps\Buttons\BrowseOver.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bitmaps\Buttons\BrowseUp.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bitmaps\Buttons\CancelOver.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bitmaps\Buttons\CancelUp.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bitmaps\Buttons\CloseOver.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bitmaps\Buttons\CloseUp.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bitmaps\Buttons\ExitOver.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bitmaps\Buttons\ExitUp.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bitmaps\Buttons\FinishedOver.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bitmaps\Buttons\FinishedUp.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bitmaps\Buttons\GetMapsOver.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bitmaps\Buttons\GetMapsUp.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bitmaps\Buttons\GetNowOver.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bitmaps\Buttons\GetNowUp.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bitmaps\Buttons\GoBackOver.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bitmaps\Buttons\GoBackUp.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bitmaps\Buttons\MaxOver.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bitmaps\Buttons\MaxUp.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bitmaps\Buttons\MinOver.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bitmaps\Buttons\MinUp.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bitmaps\Buttons\NoAdvOver.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bitmaps\Buttons\NoAdvUp.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bitmaps\Buttons\NoOver.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bitmaps\Buttons\NoUp.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bitmaps\Buttons\OKOver.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bitmaps\Buttons\OKUp.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bitmaps\Buttons\PlayOver.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bitmaps\Buttons\PlayUp.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bitmaps\Buttons\ReleaseNoteOver.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bitmaps\Buttons\ReleaseNotesUp.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bitmaps\Buttons\YesOver.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bitmaps\Buttons\YesRecommOver.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bitmaps\Buttons\YesRecommUp.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bitmaps\Buttons\YesUp.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "UI\Button.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UI\Button.resx"
+                    DependentUpon = "Button.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+
